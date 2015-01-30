@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Tipo">
+        <item>Casa</item>
+        <item>Piso</item>
+        <item>Chalet</item>
+        <item>Cochera</item>
+    </string-array>
+</resources>

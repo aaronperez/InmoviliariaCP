@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Inmobiliaria</string>
+    <string name="agregar">Agregar</string>
+    <string name="editar">Editar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="agregari">Agregar inmueble</string>
+    <string name="editari">Editar inmueble</string>
+    <string name="eliminari">Eliminar inmueble</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="moneda">€</string>
+    <string name="nofoto">No hay fotos</string>
+    <string name="id">ID:</string>
+    <string name="selecciona">Selecciona inmueble</string>
+    <string name="inmueble">INMUEBLE</string>
+    <string name="archivoGuardado">La foto ha sido guardada</string>
+    <string name="archivoNoGuardado">NO se ha guardado la foto</string>
+
+    <string name="localidad">Localidad:</string>
+    <string name="direccion">Dirección:</string>
+    <string name="precio">Precio (€):</string>
+
+    <string name="mensajeCancelar">Ningún elemento modificado</string>
+    <string name="mensajeError">No hay archivos</string>
+    <string name="mensajeSeguro">Va a eliminar el siguiente inmueble y los datos asociados a él. ¿Está seguro?</string>
+
+    <string name="usuario">Usuario</string>
+    <string name="usuarioCambiar">Cambiar usuario</string>
+    <string name="usuarioCambiado">El usuario ha sido cambiado</string>
+
+
+</resources>

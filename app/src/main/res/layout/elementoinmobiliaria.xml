@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:id="@+id/ivIcono"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/casa" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/localidad"
+        android:id="@+id/tvLocalidad"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/ivIcono"
+        android:paddingTop="15dp"
+        android:paddingLeft="5dp"
+        android:textColor="#ff0f0ddd"
+        android:gravity="bottom"
+        android:layout_alignRight="@+id/tvCalle"
+        android:layout_alignEnd="@+id/tvCalle" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/tvLocalidadE"
+        android:gravity="bottom|right"
+        android:paddingRight="20dp"
+        android:textColor="#ff0f0ddd"
+        android:paddingTop="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/tvLocalidad"
+        android:layout_alignEnd="@+id/tvLocalidad"
+        android:layout_toRightOf="@+id/tvCall"
+        android:layout_toEndOf="@+id/tvCall" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/tvCall"
+        android:layout_below="@+id/tvLocalidad"
+        android:layout_toRightOf="@+id/ivIcono"
+        android:paddingRight="10dp"
+        android:paddingTop="2dp"
+        android:paddingLeft="5dp"
+        android:textColor="#ff0f0ddd"
+        android:text="@string/direccion"
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/tvPrecioE"
+        android:gravity="right"
+        android:paddingRight="20dp"
+        android:paddingTop="2dp"
+        android:textColor="#ff0f0ddd"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignRight="@+id/tvLocalidadE"
+        android:layout_toRightOf="@+id/textView2"
+        android:layout_toEndOf="@+id/textView2"
+        android:layout_below="@+id/tvCall" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/precio"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/tvCall"
+        android:layout_toRightOf="@+id/ivIcono"
+        android:layout_alignBottom="@+id/ivIcono"
+        android:textColor="#ff0f0ddd"
+        android:paddingLeft="5dp"
+        android:paddingTop="2dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/tvCalle"
+        android:layout_toRightOf="@+id/tvCall"
+        android:textColor="#ff0f0ddd"
+        android:gravity="right"
+        android:paddingRight="20dp"
+        android:paddingTop="2dp"
+        android:layout_alignTop="@+id/tvCall"
+        android:layout_alignBottom="@+id/tvCall"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

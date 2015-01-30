@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Main"
+    xmlns:myapp="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/agregar"
+        android:title="@string/agregar"
+        android:orderInCategory="10"
+        myapp:showAsAction="always"
+        android:icon="@drawable/agre"
+        />
+    <item android:id="@+id/usuario"
+        android:title="@string/usuario"
+        myapp:showAsAction="never"
+        />
+</menu>

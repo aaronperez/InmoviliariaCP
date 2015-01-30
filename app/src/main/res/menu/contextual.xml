@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Main" >
+    <item android:id="@+id/action_eliminar"
+        android:title="@string/eliminari"
+        android:orderInCategory="100"
+        tools:showAsAction="ifRoom" />
+    <item android:id="@+id/action_editar"
+        android:title="@string/editari"
+        android:orderInCategory="100"
+        tools:showAsAction="ifRoom" />
+</menu>
