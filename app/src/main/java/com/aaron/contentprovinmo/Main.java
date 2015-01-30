@@ -192,8 +192,8 @@ public class Main extends ActionBarActivity implements LoaderManager.LoaderCallb
     }
 
 
-    /*  */
-    /* ************************** */
+    /*  Clases para el Callback del CP */
+    /* ******************************* */
     @Override
     public Loader<Cursor> onCreateLoader(int id, Bundle args) {
         //cargar el cursor del content provider

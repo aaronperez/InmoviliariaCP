@@ -101,16 +101,6 @@ public class Edicion extends Activity {
         finish();
     }
 
-    /* Método para generar un ID nuevo desde Preferencias compartidas*/
-    public String generarId(){
-        int id = prefs.getInt("id", 0);
-        id++;
-        SharedPreferences.Editor editor = prefs.edit();
-        editor.putInt("id", id);
-        editor.commit();
-        return id+"";
-    }
-
     /*  Método para iniciar Spinner y escucharlo  */
     private void iniciarSpinner(){
         ArrayAdapter<CharSequence> stringArrayAdapter=ArrayAdapter.createFromResource(this,
